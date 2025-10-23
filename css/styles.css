@@ -98,10 +98,10 @@ section img {
 }
 
 /* ---------- Links ---------- */
-a {
-  font-weight: bold;
-  color: var(--accent-color);
-  text-decoration: none;
+main a {
+  color: blue;
+  text-decoration: underline;
+  front-weight: normal;
 }
 
 a:hover {
