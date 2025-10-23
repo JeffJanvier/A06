@@ -1,0 +1,77 @@
+/* ---------- General page styles ---------- */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+  text-align: center;
+  padding: 2rem 3rem;
+} 
+header img {
+  height: 90px;
+  margin-bottom: 0.5rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0.3rem 0 0 0;
+}
+
+/* ---------- Main content ---------- */
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+main h1, main h2 {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+main h1 {
+  font-size: 1.5rem;
+}
+
+main h2 {
+  font-size: 1.2rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1rem 2rem;
+  color: #444;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+
+ul li {
+  margin: 0.3rem 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  color: #000;
+  border-top: none;
+}
