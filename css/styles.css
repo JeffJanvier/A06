@@ -1,5 +1,9 @@
-/* ---------- General page styles ---------- */
+/* ---------- Root variable ---------- */
+:root {
+  --accent-color: #800000;
+}
 
+/* ---------- General page styles ---------- */
 body {
   font-family: "Times New Roman", Times, serif;
   color: #000;
@@ -11,27 +15,34 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  text-align: center;
+  text-align: left;
   padding: 2rem 3rem;
-} 
-header img {
-  height: 90px;
-  margin-bottom: 0.5rem;
 }
 
-header h1 {
-  font-size: 1.8rem;
-  margin: 0;
-}
-
+/* step 12 */
 header h2 {
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin: 0.3rem 0 0 0;
+  font-size: 170%;
+  text-indent: 30px;
+}
+
+/* step 13 */
+header h3 {
+  font-size: 130%;
+  font-style: italic;
+  text-indent: 30px;
+}
+
+/* step 14 */
+header img {
+  float: left;
+  height: 80px; /* step 20 */
+  margin-right: 1rem;
 }
 
 /* ---------- Main content ---------- */
+/* step 18 */
 main {
+  clear: left;
   max-width: 700px;
   margin: 0 auto;
   padding: 0 3rem;
@@ -74,4 +85,19 @@ footer {
   padding: 1rem 3rem;
   color: #000;
   border-top: none;
+}
+
+/* step 21 */
+footer p {
+  text-align: center;
+}
+
+/* step 29 */
+.large {
+  font-size: 125%;
+}
+
+/* Example: using accent color variable if you later add colored elements */
+a, h2, h3 {
+  color: var(--accent-color);
 }
