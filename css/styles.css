@@ -18,7 +18,7 @@ body {
 header {
   padding-bottom: 1rem;
   overflow: auto; /* allows floated image to stay inside header */
-  
+  border-bottom: none;
 }
 
 /* logo image */
@@ -115,6 +115,7 @@ footer {
   margin-top: 2rem;
   padding-top: 1rem;
   color: #000;
+  border-top:none;
 }
 
 footer p {
