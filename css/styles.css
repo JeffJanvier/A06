@@ -15,35 +15,29 @@ body {
    border: 1px solid #000; 
 }
 
-
-/* ---------- Header ---------- */
 header {
+  text-align: center;  /* center everything under the logo */
   padding-bottom: 1rem;
-  overflow: auto; /* allows floated image to stay inside header */
   border-bottom: none;
 }
 
-/* logo image */
 header img {
-  float: left;
-  height: 80px; /* per instructions step 20 */
-  margin-right: 20px;
+  height: 90px;
+  display: block;   /* makes image a block element to control margin */
+  margin: 0 auto 0.5rem auto;  /* center horizontally, margin below */
 }
 
-/* main header title */
 header h2 {
-  font-size: 170%;
-  text-indent: 30px;
+  font-size: 1.8rem;
   margin: 0;
   color: #000;
 }
 
-/* subheader text */
 header h3 {
-  font-size: 130%;
+  font-size: 1.2rem;
   font-style: italic;
-  text-indent: 30px;
-  margin: 0.4rem 0 0 0;
+  margin: 0.3rem 0 0 0;
+  color: #000;
 }
 
 /* ---------- Main content ---------- */
