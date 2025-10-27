@@ -13,7 +13,10 @@ body {
   line-height: 1.6;
   max-width: 800px;
    border: 1px solid #000; 
+  Margin-left:50px;
+  Margin-right:auto;
 }
+
 
 /* ---------- Header ---------- */
 header {
