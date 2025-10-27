@@ -9,12 +9,10 @@ body {
   color: #000;
   background-color: #fff;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 3rem 2rem 1.5rem;  
   line-height: 1.6;
   max-width: 800px;
    border: 1px solid #000; 
-  Margin-left:50px;
-  Margin-right:auto;
 }
 
 
